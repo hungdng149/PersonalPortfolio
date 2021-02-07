@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <title>Home</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="#home" class='fas fa-keyboard' style='font-size:36px' h></a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Experience</a></li>
+            <li><a href="#excur">Activities</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+            <div class="line4"></div>
+        </div>
+    </nav>
+
+
+    <!--Introduction-->
+    <section class="intro" id="home">
+        <h1 class="intro_title">
+            <bold>Hung Nguyen</bold>
+        </h1>
+        <p class="intro_subtitle">Computer Science graduate</p>
+        
+    </section>
+    <!--About me-->
+    <section class="about_me" id="about">
+        <div>
+            <h2 class="section_title">About Me</h2>
+            <p>I have always been passionate about problem solving ever since I was little. When I started
+            college, I decided that I would combine my passion for problem solving with coding in order to create programs
+            and services that makes people's lives easier. I enjoy scripting in Python and I have created a lot of automation
+            scripts accross my Co-ops that significantly cuts down on manual entry hours and saves the company tens of thousands
+            of dollars. <br>
+            Right now, I'm looking for a full-stack employment opportunity that I can make use of both my SQL back-end
+            skills as well as my HTML,CSS and JS front-end skills.</p>
+        </div>
+        <img src="img/Hung Nguyen.jpg" width="40%" height="30%" alt="">
+    </section>
+
+    <!--Work Experience-->
+    <section class="my-work" id="work">
+        <h2 class = "section_title"> Work Experiences</h2>
+        <button class="button1" onclick="peerTAbutton()">Peer TA at University of Cincinnati</button>
+        <button class="button1" onclick="FSoftbutton()">Software Engineer Intern at FPT Software</button>
+        <button class="button1" onclick="OneSightbutton()">Data Engineer Co-op at OneSight Inc.</button>
+        <button class="button1" onclick="DJJbutton()">Data Engineer Co-op at The David J Joseph Company</button>
+        <h3 class ="job_name" id="job_name"> Peer Teaching Assistant at University of Cincinnati</h3>
+        <ul class="job_duty_list">
+            <li id="job_duty_1">Assist students with difficult aspects of course material</li>
+            <li id="job_duty_2">Prepare lesson plans and activities for recitation</li>
+            <li id="job_duty_3">Develop and strengthen effective studying strategies for students</li>
+            <li id="job_duty_4">Conduct drop-in tutoring sessions with students weekly</li>
+        </ul>
+        <h2 class="section_title">Skills</h2>
+        <sub class="skill_list">
+            <ul>Programming
+                <li>C++</li>
+                <li>Python</li>
+                <li>HTML/CSS</li>
+                <li>JavaScript</li>
+                <li>SQL</li>
+                <li>NodeJS</li>
+            </ul>
+            <ul>Tools
+                <li>Git</li>
+                <li>Docker</li>
+                <li>JQuery</li>
+            </ul>
+            <ul>Frameworks
+                <li>Scikit-learn</li>
+                <li>Angular</li>
+                <li>Agile(SCRUM)</li>
+                <li>Bootstrap</li>
+            </ul>
+        </sub>
+        
+    </section>
+    <!--Extracurricular Activities-->
+    <section class="excur" id="excur">
+        <h3>
+            <ul>
+
+            </ul>
+        </h3>
+        <h3>
+            <ul>
+
+            </ul>
+        </h3>
+        <h3>
+            <ul>
+
+            </ul>
+        </h3>
+    </section>
+    <!--Contact me-->
+    <section class="contact-me" id="contact"></section>
+        <ul>
+
+        </ul>
+    <script src="app.js"></script>
+    <script src="button.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    
+</body>
+</html>
